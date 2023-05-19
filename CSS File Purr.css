@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+body {background-color: #D4E5FA}
+
+h1 {color: aliceblue;
+ text-decoration: underline;
+text-align: center; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; }
+
+h2{font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; color: aliceblue; text-align: center}
+
+img {border-color: aliceblue;
+  border-width: 4px;
+  border-style: double;
+  border-radius: 10px;}
+h3 {color: aliceblue;text-decoration: underline; font-size: 30px; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"}
+
+h4{ color: aliceblue; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";  font-size: 20px }
