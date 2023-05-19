@@ -16,3 +16,7 @@ img {border-color: aliceblue;
 h3 {color: aliceblue;text-decoration: underline; font-size: 30px; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"}
 
 h4{ color: aliceblue; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";  font-size: 20px }
+
+table, th, td {
+  border: 1px solid rgb(237, 238, 158);
+}
