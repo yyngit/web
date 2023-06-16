@@ -22,3 +22,9 @@ table, th, td {
   color: aliceblue; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; font-size: 25px;
 }
 
+nav { display: flex; 
+      font-family: Arial, Helvetica, sans-serif;
+       justify-content: space around;
+      align-items: center; 
+       min-hieght: 8vh;
+      background-color: rgb(233, 198, 230); }
