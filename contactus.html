@@ -1,24 +1,6 @@
-<form
-  method="post"
-  action="https://sheetdb.io/api/v1/58f61be4dda40">
-    ID: <input name="data[id]">
-    Name: <input name="data[name]">
-    Age: <input name="data[age]">
-    <button type="submit">Submit</button>
-</form>
-
-<script>
-    var form = document.getElementById('sheetdb-form');
-    form.addEventListener("submit", e => {
-      e.preventDefault();
-      fetch(form.action, {
-          method : "POST",
-          body: new FormData(document.getElementById("sheetdb-form")),
-      }).then(
-          response => response.json()
-      ).then((html) => {
-        // you can put any JS code here
-        alert("Form Data Submitted :)")
-      });
-    });
-  </script>
+<form action="https://api.sheetmonkey.io/form/nGaAXQvCr7tTx9iyCS46mq" method="post">
+    <label>Your Name: <input type="text" name="Name" required /></label>
+    <label>Your Email: <input type="email" name="Email" required /></label>
+    <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+    <input type="submit" value="Sign Up" />
+  </form>
