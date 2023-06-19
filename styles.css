@@ -28,3 +28,45 @@ nav { display: flex;
       align-items: center; 
        min-hieght: 8vh;
       background-color: rgb(233, 198, 230); }
+
+      nav {
+        background-color: pink;
+      }
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: red;
+      }
+      
+      .nav-img {
+        display: inline-block;
+        width: 150px;
+        height: 100px;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+      
+      .center {
+      margin: auto;
+     width: 75%;
+     border: 3px solid green;
+      padding: 10px;
+  }	
