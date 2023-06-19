@@ -53,7 +53,7 @@ nav { display: flex;
       }
       
       li a:hover {
-        background-color: red;
+        background-color: rgb(151, 201, 222);
       }
       
       .nav-img {
