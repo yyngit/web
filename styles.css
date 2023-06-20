@@ -67,6 +67,6 @@ nav { display: flex;
       .center {
       margin: auto;
      width: 75%;
-     border: 3px solid green;
+     border: 3px solid rgb(248, 248, 248);
       padding: 10px;
   }	
