@@ -19,7 +19,7 @@ h4{ color: aliceblue; font-family: Consolas, "Andale Mono", "Lucida Console", "L
 
 table, th, td {
   border: 5px solid rgb(255, 255, 255);
-  color: aliceblue; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; font-size: 25px; text-align: center;
+  color: aliceblue; font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; font-size: 25px; align: center;
 }
 
 nav { display: flex; 
